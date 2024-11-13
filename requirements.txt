@@ -1,0 +1,16 @@
+# Requirements
+To run the code, you need the following libraries :
+
+  pip install numpy pandas scikit-learn seaborn
+
+Then import the following libraries :
+
+  import tkinter as tk
+  from tkinter import messagebox
+  from sklearn import datasets
+  from sklearn.ensemble import RandomForestClassifier
+  from sklearn.model_selection import train_test_split
+  from sklearn.preprocessing import StandardScaler
+  import numpy as np
+  import seaborn as sns
+  import pandas as pd

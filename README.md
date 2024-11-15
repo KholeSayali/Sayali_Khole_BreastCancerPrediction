@@ -45,8 +45,8 @@ A simple GUI is created using the Tkinter library.
 The user inputs the values for the 5 selected features (mean radius, mean texture, mean perimeter, mean area, mean smoothness).
 When the user clicks the PREDICT button, the input data is standardized, and the "Random Forest model" is used to make the prediction.
 The prediction result is displayed as:
-  "PATIENT HAS NO CANCER (MALIGNANT)" if the prediction is 0.
-  "PATIENT HAS CANCER (BENIGN)" if the prediction is 1.
+  "PATIENT HAS NO CANCER (BENIGN)" if the prediction is 0.
+  "PATIENT HAS CANCER (MALIGNANT)" if the prediction is 1.
 # 8. Output
   1. Console Output: The accuracy, R2 score, and Mean Squared Error for both models (Logistic Regression and Random Forest Classifier) 
      are displayed in the console.
